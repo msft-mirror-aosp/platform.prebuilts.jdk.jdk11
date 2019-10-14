@@ -19,11 +19,11 @@
 
   <project name="platform/external/jetbrains/jdk8u_jdk" path="external/jetbrains/jdk8u_jdk" revision="e5752ae568d3c43497ae4f33d731fadf4ef165d4" />
 
-  <project name="toolchain/jdk/jdk11" path="toolchain/jdk/jdk11" revision="afc0919b1d8ca9c6648d76a6933b6717fbde6942" />
+  <project name="toolchain/jdk/jdk11" path="toolchain/jdk/jdk11" revision="418d1dce2178138a7b804f3b3fb4e7d705ffc3ca" />
 
   <project name="toolchain/jdk/jdk9_jaxws" path="toolchain/jdk/jdk9_jaxws" revision="cc2e16b7e6d0b1f6a4dbc28ffaf3a22b19991dd7" />
 
-  <project clone-depth="1" name="platform/prebuilts/build-tools" path="prebuilts/build-tools" revision="f0f1b2cba0e070317c75bf6da44720bb99b7b729" />
+  <project clone-depth="1" name="platform/prebuilts/build-tools" path="prebuilts/build-tools" revision="fa404c2e785a7a0cf4b71506d0140bb20ac4314f" />
 
   <project name="toolchain/jdk/jdk9_langtools" path="toolchain/jdk/jdk9_langtools" revision="3b42d11dac232f45e9fb4f2bcc0fdb7322eaaa90" />
 

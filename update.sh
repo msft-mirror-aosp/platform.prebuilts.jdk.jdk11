@@ -1,10 +1,10 @@
-#!/bin/bash -v
+#!/bin/bash -ev
 
 # Updates prebuilts/jdk/jdk11 from build server.
 # Usage:
-#    $ cd <REPO>/prebuilts/jdk/jdk11
+#    $ cd <REPO>
 #    $ repo start jdk11_update .
-#    $ update-jdk11.sh <BUILD_NUMBER>
+#    $ prebuilts/jdk/jdk11/update-jdk11.sh <BUILD_NUMBER>
 #    $ repo upload --cbr .
 
 
@@ -13,7 +13,7 @@ LINUX_ZIP=/tmp/$$.linux.zip
 DARWIN_ZIP=/tmp/$$.darwin.zip
 
 FETCH_ARTIFACT=/google/data/ro/projects/android/fetch_artifact
-cd "${ANDROID_BUILD_TOP:?ANDROID_BUILD_TOP must be set, run lunch first}"/prebuilts/jdk/jdk11
+cd "$(dirname $0)"
 
 rm -rf staging
 mkdir -p staging
@@ -44,4 +44,5 @@ Test: none"
 
 git rm -rf linux-x86 darwin-x86 manifest.xml
 git mv staging/* .
+rmdir staging
 git commit -m "Switch to JDK $version" --edit

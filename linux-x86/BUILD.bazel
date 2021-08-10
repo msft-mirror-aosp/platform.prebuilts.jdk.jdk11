@@ -1,0 +1,16 @@
+java_runtime(
+    name = "jdk11_runtime",
+    srcs = glob(["**"]),
+)
+
+config_setting(
+    name = "jdk11_setting",
+    values = {"java_runtime_version": "jdk11"}
+)
+
+toolchain(
+    name="jdk11_toolchain",
+    target_settings = [":jdk11_setting"],
+    toolchain_type = "@bazel_tools//tools/jdk:runtime_toolchain_type",
+    toolchain = "jdk11_runtime",
+)

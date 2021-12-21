@@ -34,6 +34,10 @@ touch staging/darwin-x86/MODULE_LICENSE_GPL
 
 rm -f ${LINUX_ZIP} ${DARWIN_ZIP}
 
+# Copy the RBE toolchain inputs files from the previous version to the staging
+# directory.
+cp linux-x86/bin/*_remote_toolchain_inputs staging/linux-x86/bin
+
 version=$(staging/linux-x86/bin/java -version 2>&1 | grep "OpenJDK Runtime Environment" | sed -e 's/.*(\(.*\))/\1/')
 
 # Commit to staging

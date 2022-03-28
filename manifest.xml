@@ -23,7 +23,7 @@
 
   <project path="external/jetbrains/jdk8u_nashorn" name="platform/external/jetbrains/jdk8u_nashorn" revision="24b2e7455b4e7e786b6e2d7c4e3ef815f10375c5" />
 
-  <project path="external/jetbrains/JetBrainsRuntime" name="platform/external/jetbrains/JetBrainsRuntime" revision="00dc3f8901e09b00d54f27e5bb3ea7eb68d13462" />
+  <project path="external/jetbrains/JetBrainsRuntime" name="platform/external/jetbrains/JetBrainsRuntime" revision="320968acbaa4b4a55d7132fc9a75d8a5e3a3a60f" />
 
   <project path="toolchain/jdk/jdk9" name="toolchain/jdk/jdk9" revision="4c1e9bbe664e532f83b258e6c8a214b0241530d8" />
 
@@ -43,11 +43,11 @@
 
   <project path="toolchain/jdk/jdk11" name="toolchain/jdk/jdk11" revision="6906fa6c54815ea66cc438068f4b86e4cc6a0a0f" />
 
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="68a6156110e8f65d42626a9310bc5590947c2ede" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="bbc516223436a544c27b4bd8d04e58e19379528d" />
 
-  <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" clone-depth="1" revision="22930b242a863903e7a7f0d277a8f323a138f1a2" />
+  <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" clone-depth="1" revision="d285ad069d89704013af46ea45dc87d4cd4ccbb4" />
 
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" revision="3a785d33320c48b09f7d6fcf2a37fed702686fdc" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" revision="9d512ac4cf90e5ae0d3d6a3d884c49871c8ed28f" />
 
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" clone-depth="1" revision="d9aafaade740ca38612c742f6d87debf362132ea" />
 
@@ -55,11 +55,11 @@
 
   <project path="prebuilts/jdk/jdk9" name="platform/prebuilts/jdk/jdk9" clone-depth="1" revision="1f0b937930e83b0f7470b9555ad289153072882f" />
 
-  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" revision="37e56d10bfd0afb98b4810b2fdb31cda05adaa37" />
+  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" revision="023f88db78eafbfc4b25fa5053531b36b89d3357" />
 
-  <project path="prebuilts/jdk/studio" name="platform/prebuilts/studio/jdk" revision="f51334658ed9a55b0465cdba149a59a7229b9a71" clone-depth="1" remote="goog" />
+  <project path="prebuilts/jdk/studio" name="platform/prebuilts/studio/jdk" revision="821a9c6efd34bce96a5eb1180df3f8295f7177e2" clone-depth="1" remote="goog" />
 
-  <project path="toolchain/jdk/build" name="toolchain/jdk/build" clone-depth="1" revision="e481580792e1130f1882120712e4e7b724f47c78" />
+  <project path="toolchain/jdk/build" name="toolchain/jdk/build" clone-depth="1" revision="16ba1684319e10523d10eac13d1322699c52ce14" />
 
   <project path="toolchain/jdk/deps" name="toolchain/jdk/deps" clone-depth="1" remote="goog" revision="59449425a56592515a4cae7aac0a9a52f0566e4d" />
 </manifest>

@@ -10,9 +10,3 @@
 ../lib/libjimage.so
 ../lib/libnet.so
 ../lib/tzdb.dat
-../lib/libawt.so
-../lib/libawt_headless.so
-../lib/libjavajpeg.so
-../lib/liblcms.so
-../lib/libmanagement.so
-../lib/libmanagement_ext.so

@@ -55,7 +55,7 @@ git commit -m "Add JDK ${version} to staging
 
 Test: none"
 
-git rm -rf linux-x86 darwin-x86 manifest.xml
+git rm -rf linux-x86 darwin-x86 darwin-arm64 manifest.xml
 git mv staging/* .
 rmdir staging
 git commit -m "Switch to JDK $version" --edit
